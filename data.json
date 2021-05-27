@@ -1,0 +1,49 @@
+ {
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Quote Generator",
+            "description": "A page that displays random quotes",
+            "technologies": ["html", "css", "javascript"],
+            "live_link": "https://",
+            "github_link": "https://",
+            "image_urls": ["../img/","../img/"]
+        },
+        {
+            "id": 1,
+            "project_name": "Pagination exercise",
+            "description": "A page that displays random quotes",
+            "technologies": ["html", "css", "javascript"],
+            "live_link": "https://",
+            "github_link": "https://",
+            "image_urls": ["../img/","../img/"]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "A page that displays random quotes",
+            "technologies": ["html", "css", "javascript"],
+            "live_link": "https://",
+            "github_link": "https://",
+            "image_urls": ["../img/","../img/"]
+        },
+        {
+            "id": 3,
+            "project_name": "Game Show App",
+            "description": "A page that displays random quotes",
+            "technologies": ["html", "css", "javascript"],
+            "live_link": "https://",
+            "github_link": "https://",
+            "image_urls": ["../img/","../img/"]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API request",
+            "description": "A page that displays random quotes",
+            "technologies": ["html", "css", "javascript"],
+            "live_link": "https://",
+            "github_link": "https://",
+            "image_urls": ["../img/","../img/"]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "static_node_and_express",
+  "version": "1.0.0",
+  "description": "Static Node and Express site",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "keywords": [
+    "Node",
+    "Express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}
