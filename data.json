@@ -1,49 +1,49 @@
  {
     "projects": [
         {
-            "id": 0,
+            "id": 1,
             "project_name": "Quote Generator",
             "description": "A page that displays random quotes",
-            "technologies": ["html", "css", "javascript"],
-            "live_link": "https://",
-            "github_link": "https://",
-            "image_urls": ["../img/","../img/"]
-        },
-        {
-            "id": 1,
-            "project_name": "Pagination exercise",
-            "description": "A page that displays random quotes",
-            "technologies": ["html", "css", "javascript"],
-            "live_link": "https://",
-            "github_link": "https://",
-            "image_urls": ["../img/","../img/"]
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://therealbyteraver.github.io/Random-Quote-Generator/",
+            "github_link": "https://github.com/TheRealByteraver/Random-Quote-Generator",
+            "image_urls": ["img/project01-big1.jpg","img/project01-big2.jpg"]
         },
         {
             "id": 2,
-            "project_name": "Interactive Form",
-            "description": "A page that displays random quotes",
-            "technologies": ["html", "css", "javascript"],
-            "live_link": "https://",
-            "github_link": "https://",
-            "image_urls": ["../img/","../img/"]
+            "project_name": "Pagination exercise",
+            "description": "A page displays student info cards, 9 per page",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://therealbyteraver.github.io/Pagination/",
+            "github_link": "https://github.com/TheRealByteraver/Pagination",
+            "image_urls": ["img/project02-big1.jpg","img/project02-big2.jpg"]
         },
         {
             "id": 3,
-            "project_name": "Game Show App",
-            "description": "A page that displays random quotes",
-            "technologies": ["html", "css", "javascript"],
-            "live_link": "https://",
-            "github_link": "https://",
-            "image_urls": ["../img/","../img/"]
+            "project_name": "Interactive Form",
+            "description": "A form enhanced with JavaScript for maximum user friendliness",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://therealbyteraver.github.io/InteractiveForm/",
+            "github_link": "https://github.com/TheRealByteraver/InteractiveForm",
+            "image_urls": ["img/project03-big1.jpg","img/project03-big2.jpg"]
         },
         {
             "id": 4,
+            "project_name": "Game Show App",
+            "description": "A wheel-of-fortune style phrase hunting game",
+            "technologies": ["HTML", "CSS", "JavaScript (OOP)"],
+            "live_link": "https://therealbyteraver.github.io/OOPGameShowApp/",
+            "github_link": "https://github.com/TheRealByteraver/OOPGameShowApp",
+            "image_urls": ["img/project04-big1.jpg","img/project04-big2.jpg"]
+        },
+        {
+            "id": 5,
             "project_name": "Public API request",
-            "description": "A page that displays random quotes",
-            "technologies": ["html", "css", "javascript"],
-            "live_link": "https://",
-            "github_link": "https://",
-            "image_urls": ["../img/","../img/"]
+            "description": "A page that retrieves data from an API and displays it",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://therealbyteraver.github.io/PublicApiRequests/",
+            "github_link": "https://github.com/TheRealByteraver/PublicApiRequests",
+            "image_urls": ["img/project05-big1.jpg","img/project05-big2.jpg","img/project05-big3.jpg"]
         }
     ]
 }
