@@ -2,20 +2,22 @@
     "projects": [
         {
             "id": 1,
-            "project_name": "Quote Generator",
+            "project_name": "A random Quote Generator",
             "description": "A page that displays random quotes",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://therealbyteraver.github.io/Random-Quote-Generator/",
             "github_link": "https://github.com/TheRealByteraver/Random-Quote-Generator",
+            "thumb_image": "img/project01-square.jpg",
             "image_urls": ["img/project01-big1.jpg","img/project01-big2.jpg"]
         },
         {
             "id": 2,
-            "project_name": "Pagination exercise",
+            "project_name": "List Pagination and filtering",
             "description": "A page displays student info cards, 9 per page",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://therealbyteraver.github.io/Pagination/",
             "github_link": "https://github.com/TheRealByteraver/Pagination",
+            "thumb_image": "img/project02-square.jpg",
             "image_urls": ["img/project02-big1.jpg","img/project02-big2.jpg"]
         },
         {
@@ -25,6 +27,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://therealbyteraver.github.io/InteractiveForm/",
             "github_link": "https://github.com/TheRealByteraver/InteractiveForm",
+            "thumb_image": "img/project03-square.jpg",
             "image_urls": ["img/project03-big1.jpg","img/project03-big2.jpg"]
         },
         {
@@ -34,15 +37,17 @@
             "technologies": ["HTML", "CSS", "JavaScript (OOP)"],
             "live_link": "https://therealbyteraver.github.io/OOPGameShowApp/",
             "github_link": "https://github.com/TheRealByteraver/OOPGameShowApp",
+            "thumb_image": "img/project04-square.jpg",
             "image_urls": ["img/project04-big1.jpg","img/project04-big2.jpg"]
         },
         {
             "id": 5,
-            "project_name": "Public API request",
+            "project_name": "Public API request Demo",
             "description": "A page that retrieves data from an API and displays it",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://therealbyteraver.github.io/PublicApiRequests/",
             "github_link": "https://github.com/TheRealByteraver/PublicApiRequests",
+            "thumb_image": "img/project05-square.jpg",
             "image_urls": ["img/project05-big1.jpg","img/project05-big2.jpg","img/project05-big3.jpg"]
         }
     ]

@@ -1,0 +1,13 @@
+extends layout.pug
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-about
+    .inner-wrapper.flex-row-wrap.two-col
+      .about-intro-box.box
+        h1= `${error.message} - Status: ${error.status}`
+        pre= error.stack

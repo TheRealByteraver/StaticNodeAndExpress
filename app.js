@@ -7,40 +7,63 @@ app.use(express.urlencoded({ extended: true })); // to support URL-encoded bodie
 
 app.use('/static', express.static('public'));
 
-const data = require('./data.json');
+const { projects } = require('./data.json');
 
 app.set('view engine', 'pug');
 
-// include routes from the 'routes' directory. 
-// index.js is the default name and thus './routes' would suffice.
-// const mainRoutes = require('./routes/index.js'); 
-
+// root route
 app.get('/', (req,res) => { 
-    res.render('index.pug', { projects: data.projects });
+    res.render('index.pug', { projects });
 });
 
+// 'about' route
 app.get('/about', (req,res) => { 
     res.render('about.pug');
 });
 
-// the below route does not handle '/project/' !
-app.get('/project/:id', (req, res) => {
-    // the id's are 1-based, but the array is 0-based
-    const index = req.params.id - 1;
-    //console.log(`data[${index}]`, data.projects[index]);
-    res.render('project.pug', { project: data.projects[index] });
+// make sure /project does not generate a 404
+app.get('/project', (req, res) => {
+    res.redirect('/project/1');
 });
 
-// Todo: handle 404 errors
-// The 404 handler should create a custom new Error(), set its status property 
-// to 404 and set its message property to a user friendly message. Then the 404 
-// handler should log out the new error's message and status properties.
+// '/project/#' route where '#' is a number between 1 and 5
+app.get('/project/:id', (req, res) => {
+    // the id's are 1-based, but the array is 0-based. If the id is 
+    // out of range then we default to the first project   
+    const index = +req.params.id - 1;
 
-// Todo: handle server errors
-// After the 404 handler in app.js add a global error handler that will deal 
-// with any server errors the app encounters. This handler should ensure that 
-// there is an err.status property and an err.message property if they don't 
-// already exist, and then log out the err object's message and status.
+    // If the 'id' string provided after '/project/' is not a number 
+    // or is too big or too small a number, redirect to '/project/1'
+    if((typeof index != 'number') || isNaN(index) || 
+        index < 0 || index >= projects.length) {
+        res.redirect('/project/1');
+    } else {
+        res.render('project.pug', { project: projects[index] });
+    }    
+});
+
+app.use((req, res, next) => {
+    const err = new Error('Not Found');
+    err.status = 404; // http 404 == not found
+    next(err);
+});
+
+app.use((err, req, res, next) => {
+    // reduce undefined errors to HTTP 500 Internal Server Error
+    if(!err.status) {
+        // we need to define the http error or the default Express error
+        // handler will get triggered instead:
+        err.status = 500;
+        // We suppress the real error message with our own:
+        //err.message = new Error('Internal Server Error');
+    }
+    // send http status 'err.status' (404, 500, ...) back to the browser
+    res.status(err.status); 
+
+    // render our custom error page
+    res.render('error', { error: err });
+    next();
+});
 
 app.listen(3000, () => {
     console.log("server is running on port 3000");

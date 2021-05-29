@@ -14,16 +14,10 @@ html(lang="en" dir="ltr")
       .sidebar-info-box
         br
         .thumbnail-box
-          img.thumbnail(src='https://placehold.it/550x350', alt='')
+          img.thumbnail(src='http://localhost:3000/static/img/profile.jpg', alt='')
         .dev-intro-box
-
-          //- Replace 'Name' with your name
           h5 Erland
-
-          //- Replace 'Description' with description of who you are, what you do, and why you are so awesome
           p My name is Erland. I started programming in my teens with qBasic, Borland Pascal, Watcom C en Turbo Assembler. Learned myself C++ a decade ago. Am dabbling with webdevelopment since a few years now, doing a few bootcamps and now the Treehouse tech degree to consolidate the knowledge. Professionally, I've been a support engineer in the webhosting world for the past 10 years.
-
-          //- Add path from your '/about' route handler to the href below
           a(href='/about') Learn More &rarr;
 
     .wrapper
@@ -31,7 +25,7 @@ html(lang="en" dir="ltr")
         .header-info-box
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
 
-          //- Replace 'Name' with your name — this is for the mobile layout
+          //- This span is for the mobile layout
           span Erland
 
       block content
