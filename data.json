@@ -12,7 +12,7 @@
         },
         {
             "id": 2,
-            "project_name": "List Pagination and filtering",
+            "project_name": "List Pagination and Filtering",
             "description": "A page displays student info cards, 9 per page",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://therealbyteraver.github.io/Pagination/",
@@ -42,7 +42,7 @@
         },
         {
             "id": 5,
-            "project_name": "Public API request Demo",
+            "project_name": "Public API Request Demo",
             "description": "A page that retrieves data from an API and displays it",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://therealbyteraver.github.io/PublicApiRequests/",

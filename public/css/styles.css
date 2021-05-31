@@ -367,3 +367,24 @@ nav a span {
   Custom CSS added by the student
 */
 
+.cell img:hover {
+  position: relative;
+  right: 1px;
+  bottom: 1px;  
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.sidebar, .header, #menu-icon, html {
+  background-color: blue;
+}
+
+.sidebar p {
+  color: yellow;
+  font-family: 'Courier New', monospace;
+}
+
+.sidebar a {
+  color:lightgray;
+}
+
+

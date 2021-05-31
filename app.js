@@ -21,7 +21,7 @@ app.get('/about', (req,res) => {
     res.render('about.pug');
 });
 
-// make sure /project does not generate a 404
+// make sure '/project' does not generate a 404
 app.get('/project', (req, res) => {
     res.redirect('/project/1');
 });
@@ -42,9 +42,11 @@ app.get('/project/:id', (req, res) => {
     }    
 });
 
+// handle 404: user requested non-existing route
 app.use((req, res, next) => {
-    const err = new Error('Not Found');
+    const err = new Error('The page you are looking for does not exist.🤷‍♂️');
     err.status = 404; // http 404 == not found
+    res.render('page-not-found.pug', {error: err});
     next(err);
 });
 
@@ -54,15 +56,16 @@ app.use((err, req, res, next) => {
         // we need to define the http error or the default Express error
         // handler will get triggered instead:
         err.status = 500;
-        // We suppress the real error message with our own:
-        //err.message = new Error('Internal Server Error');
+        // We suppress the real error message with our own.
+        // Comment it out for debugging.
+        err.message = new Error('Internal Server Error 🙅‍♂️');
     }
-    // send http status 'err.status' (404, 500, ...) back to the browser
+    // send http status 'err.status' back to the browser
     res.status(err.status); 
 
     // render our custom error page
-    res.render('error', { error: err });
-    next();
+    res.render('error.pug', { error: err });
+    next(err);
 });
 
 app.listen(3000, () => {
