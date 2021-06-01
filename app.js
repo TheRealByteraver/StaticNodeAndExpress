@@ -1,55 +1,47 @@
+// configure express:
 const express = require('express');
-
 const app = express();
-
-app.use(express.json());                         // to support JSON-encoded bodies
-app.use(express.urlencoded({ extended: true })); // to support URL-encoded bodies
-
 app.use('/static', express.static('public'));
-
-const { projects } = require('./data.json');
-
 app.set('view engine', 'pug');
 
-// root route
+// import data:
+const { projects } = require('./data.json');
+
+// handle routes:
 app.get('/', (req,res) => { 
     res.render('index.pug', { projects });
 });
 
-// 'about' route
 app.get('/about', (req,res) => { 
     res.render('about.pug');
 });
 
-// make sure '/project' does not generate a 404
-app.get('/project', (req, res) => {
-    res.redirect('/project/1');
-});
-
-// '/project/#' route where '#' is a number between 1 and 5
-app.get('/project/:id', (req, res) => {
+app.get('/project/:id', (req, res, next) => {
     // the id's are 1-based, but the array is 0-based. If the id is 
     // out of range then we default to the first project   
     const index = +req.params.id - 1;
 
     // If the 'id' string provided after '/project/' is not a number 
-    // or is too big or too small a number, redirect to '/project/1'
+    // or is too big or too small a number, make it a 404 error
     if((typeof index != 'number') || isNaN(index) || 
         index < 0 || index >= projects.length) {
-        res.redirect('/project/1');
+        // we can't handle this route here (it does not exist) so we go to 
+        // the next middleware in the chain, which will render a 404 error
+        next();
     } else {
         res.render('project.pug', { project: projects[index] });
     }    
 });
 
-// handle 404: user requested non-existing route
+// handle errors. First, if the route was not handled yet, it does not exist,
+// so we create a 404 ('Not Found') error:
 app.use((req, res, next) => {
     const err = new Error('The page you are looking for does not exist.🤷‍♂️');
     err.status = 404; // http 404 == not found
-    res.render('page-not-found.pug', {error: err});
-    next(err);
+    next(err);        // let the error handler below handle it further
 });
 
+// handle all errors from the middleware chain:
 app.use((err, req, res, next) => {
     // reduce undefined errors to HTTP 500 Internal Server Error
     if(!err.status) {
@@ -64,10 +56,15 @@ app.use((err, req, res, next) => {
     res.status(err.status); 
 
     // render our custom error page
-    res.render('error.pug', { error: err });
-    next(err);
+    if(err.status === 404) {
+        res.render('page-not-found.pug', { error: err });
+    }
+    else {
+        res.render('error.pug', { error: err });
+    }    
 });
 
+// start server at port 3000
 app.listen(3000, () => {
     console.log("server is running on port 3000");
 });
