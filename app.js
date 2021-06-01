@@ -17,8 +17,7 @@ app.get('/about', (req,res) => {
 });
 
 app.get('/project/:id', (req, res, next) => {
-    // the id's are 1-based, but the array is 0-based. If the id is 
-    // out of range then we default to the first project   
+    // the id's are 1-based, but the array is 0-based 
     const index = +req.params.id - 1;
 
     // If the 'id' string provided after '/project/' is not a number 
