@@ -47,8 +47,8 @@ app.use((err, req, res, next) => {
         // we need to define the http error or the default Express error
         // handler will get triggered instead:
         err.status = 500;
-        // We suppress the real error message with our own.
-        // Comment it out for debugging.
+        // We suppress the real error message with our own;
+        // comment it out for debugging.
         err.message = new Error('Internal Server Error 🙅‍♂️');
     }
     // send http status 'err.status' back to the browser
