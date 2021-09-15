@@ -4,7 +4,7 @@
   "description": "Static Node and Express site",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",  
+    "start": "node app.js",  
     "test": ""
   },
   "keywords": [
