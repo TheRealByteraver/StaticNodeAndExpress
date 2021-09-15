@@ -1,0 +1,84 @@
+{
+  "projects": [
+      {
+          "id": 1,
+          "project_name": "A random Quote Generator",
+          "description": "A page that displays random quotes",
+          "technologies": ["HTML", "CSS", "JavaScript"],
+          "live_link": "https://therealbyteraver.github.io/Random-Quote-Generator/",
+          "github_link": "https://github.com/TheRealByteraver/Random-Quote-Generator",
+          "thumb_image": "img/project01-square.jpg",
+          "image_urls": ["img/project01-big1.jpg","img/project01-big2.jpg"]
+      },
+      {
+          "id": 2,
+          "project_name": "List Pagination and Filtering",
+          "description": "A page displays student info cards, 9 per page",
+          "technologies": ["HTML", "CSS", "JavaScript"],
+          "live_link": "https://therealbyteraver.github.io/Pagination/",
+          "github_link": "https://github.com/TheRealByteraver/Pagination",
+          "thumb_image": "img/project02-square.jpg",
+          "image_urls": ["img/project02-big1.jpg","img/project02-big2.jpg"]
+      },
+      {
+          "id": 3,
+          "project_name": "Interactive Form",
+          "description": "A form enhanced with JavaScript for maximum user friendliness",
+          "technologies": ["HTML", "CSS", "JavaScript"],
+          "live_link": "https://therealbyteraver.github.io/InteractiveForm/",
+          "github_link": "https://github.com/TheRealByteraver/InteractiveForm",
+          "thumb_image": "img/project03-square.jpg",
+          "image_urls": ["img/project03-big1.jpg","img/project03-big2.jpg"]
+      },
+      {
+          "id": 4,
+          "project_name": "Game Show App",
+          "description": "A wheel-of-fortune style phrase hunting game",
+          "technologies": ["HTML", "CSS", "JavaScript (OOP)"],
+          "live_link": "https://therealbyteraver.github.io/OOPGameShowApp/",
+          "github_link": "https://github.com/TheRealByteraver/OOPGameShowApp",
+          "thumb_image": "img/project04-square.jpg",
+          "image_urls": ["img/project04-big1.jpg","img/project04-big2.jpg"]
+      },
+      {
+          "id": 5,
+          "project_name": "Public API Request Demo",
+          "description": "A page that retrieves data from an API and displays it",
+          "technologies": ["HTML", "CSS", "JavaScript"],
+          "live_link": "https://therealbyteraver.github.io/PublicApiRequests/",
+          "github_link": "https://github.com/TheRealByteraver/PublicApiRequests",
+          "thumb_image": "img/project05-square.jpg",
+          "image_urls": ["img/project05-big1.jpg","img/project05-big2.jpg","img/project05-big3.jpg"]
+      },
+      {
+          "id": 6,
+          "project_name": "React Gallery App",
+          "description": "A simple React App that lets you search the Flickr image database",
+          "technologies": ["HTML", "CSS", "JavaScript", "React"],
+          "live_link": "",
+          "github_link": "https://github.com/TheRealByteraver/React-Gallery-App",
+          "thumb_image": "img/project06-square.jpg",
+          "image_urls": ["img/project06-big1.jpg","img/project06-big2.jpg"]
+      },
+      {
+          "id": 7,
+          "project_name": "SQL library manager",
+          "description": "An App that lets you search, add and remove books from a database",
+          "technologies": ["HTML", "CSS", "JavaScript", "Express", "Sequelize", "SQLite"],
+          "live_link": "",
+          "github_link": "https://github.com/TheRealByteraver/SQL-Library-manager",
+          "thumb_image": "img/project07-square.jpg",
+          "image_urls": ["img/project07-big1.jpg","img/project07-big2.jpg","img/project07-big3.jpg"]
+      },
+      {
+          "id": 8,
+          "project_name": "Full stack app",
+          "description": "A React frontend to an (own) API that implements CRUD on a database of courses. Includes user authentication",
+          "technologies": ["HTML", "CSS", "JavaScript", "React", "Express", "Sequelize", "SQLite"],
+          "live_link": "",
+          "github_link": "https://github.com/TheRealByteraver/Full-stack-App-with-Rest-API",
+          "thumb_image": "img/project08-square.jpg",
+          "image_urls": ["img/project08-big1.jpg","img/project08-big2.jpg","img/project08-big3.jpg"]
+      }
+  ]
+}
