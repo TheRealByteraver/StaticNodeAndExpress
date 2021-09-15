@@ -18,17 +18,24 @@ app.get('/about', (req,res) => {
 
 app.get('/project/:id', (req, res, next) => {
     // the id's are 1-based, but the array is 0-based 
-    const index = +req.params.id - 1;
+    const index = +req.params.id;// - 1;
 
     // If the 'id' string provided after '/project/' is not a number 
     // or is too big or too small a number, make it a 404 error
     if((typeof index != 'number') || isNaN(index) || 
-        index < 0 || index >= projects.length) {
+        index < 0) {
         // we can't handle this route here (it does not exist) so we go to 
         // the next middleware in the chain, which will render a 404 error
         next();
     } else {
-        res.render('project.pug', { project: projects[index] });
+        // check if the index is an existing one and dig up the right project:
+        for (let i = 0; i < projects.length; i++) {
+            if (projects[i].id === index) {
+                res.render('project.pug', { project: projects[i] });
+                return;
+            } 
+        }
+        next(); // project not found, give the user a 404
     }    
 });
 
@@ -65,5 +72,5 @@ app.use((err, req, res, next) => {
 
 // start server at port 3000
 app.listen(process.env.PORT || 3000, () => {
-    console.log("server is running on port 3000");
+    console.log("server is running on port ", process.env.PORT || 3000);
 });

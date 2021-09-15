@@ -24,7 +24,7 @@ block content
 
     .project-img-box.box
       each image in project.image_urls
-        img.project-img(src=`http://localhost:3000/static/${image}`, 
+        img.project-img(src=`/static/${image}`, 
         |  alt=`Image of ${project.project_name}`)  
 
     nav.nav

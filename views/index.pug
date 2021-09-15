@@ -10,5 +10,5 @@ block content
       each project in projects 
         .cell 
           a(href=`/project/${project.id}`)
-            img.thumbnail(src=`http://localhost:3000/static/${project.thumb_image}`,alt=`Thumbnail of ${project.project_name}`)
+            img.thumbnail(src=`/static/${project.thumb_image}`,alt=`Thumbnail of ${project.project_name}`)
             h5 #{project.project_name}
