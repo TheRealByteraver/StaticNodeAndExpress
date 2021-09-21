@@ -35,7 +35,7 @@
             "project_name": "React Gallery App",
             "description": "A simple React App that lets you search the Flickr image database",
             "technologies": ["HTML", "CSS", "JavaScript", "React"],
-            "live_link": "",
+            "live_link": "https://stormy-hamlet-42926.herokuapp.com/",
             "github_link": "https://github.com/TheRealByteraver/React-Gallery-App",
             "thumb_image": "img/project06-square.jpg",
             "image_urls": ["img/project06-big1.jpg","img/project06-big2.jpg"]
@@ -45,7 +45,7 @@
             "project_name": "SQL library manager",
             "description": "An App that lets you search, add and remove books from a database",
             "technologies": ["HTML", "CSS", "JavaScript", "Express", "Sequelize", "SQLite"],
-            "live_link": "",
+            "live_link": "https://limitless-tundra-56687.herokuapp.com/",
             "github_link": "https://github.com/TheRealByteraver/SQL-Library-manager",
             "thumb_image": "img/project07-square.jpg",
             "image_urls": ["img/project07-big1.jpg","img/project07-big2.jpg","img/project07-big3.jpg"]
