@@ -1,18 +1,22 @@
 // configure express:
+const path = require('path');
 const express = require('express');
 const app = express();
-app.use('/static', express.static('public'));
+//app.use('/static', express.static('public')); // replaced, see below
+app.use('/static', express.static(path.join(__dirname, 'public')));
+
 app.set('view engine', 'pug');
+app.set('views', path.join(__dirname, 'views')); // added
 
 // import data:
 const { projects } = require('./data.json');
 
 // handle routes:
-app.get('/', (req,res) => { 
+app.get('/', (req, res) => { 
     res.render('index.pug', { projects });
 });
 
-app.get('/about', (req,res) => { 
+app.get('/about', (req, res) => { 
     res.render('about.pug');
 });
 
@@ -70,7 +74,8 @@ app.use((err, req, res, next) => {
     }    
 });
 
-// start server at port 3000
-app.listen(process.env.PORT || 3000, () => {
-    console.log("server is running on port ", process.env.PORT || 3000);
+// start server at port 3006 (for node.js multisite hosting 
+// on digitalocean server with nginx proxy)
+app.listen(process.env.PORT || 3006, () => {
+    console.log('server is running on port ', process.env.PORT || 3006);
 });
