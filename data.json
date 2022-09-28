@@ -1,64 +1,95 @@
 {
   "projects": [
-      {
-          "id": 3,
-          "project_name": "Interactive Form",
-          "description": "A form enhanced with JavaScript: a quest for maximum user friendliness",
-          "technologies": ["HTML", "CSS", "JavaScript"],
-          "live_link": "https://therealbyteraver.github.io/InteractiveForm/",
-          "github_link": "https://github.com/TheRealByteraver/InteractiveForm",
-          "thumb_image": "img/project03-square.jpg",
-          "image_urls": ["img/project03-big1.jpg","img/project03-big2.jpg"]
-      },
-      {
-          "id": 4,
-          "project_name": "Game Show App",
-          "description": "A wheel-of-fortune style phrase hunting game. I also made the exact same game using React (repo at https://github.com/TheRealByteraver/React-OOPGameShowApp). The 'Live Demo' button points to the vanilla JavaScript version",
-          "technologies": ["HTML", "CSS", "JavaScript (OOP) / React"],
-          "live_link": "https://therealbyteraver.github.io/OOPGameShowApp/",
-          "github_link": "https://github.com/TheRealByteraver/OOPGameShowApp",
-          "thumb_image": "img/project04-square.jpg",
-          "image_urls": ["img/project04-big1.jpg","img/project04-big2.jpg"]
-      },
-      {
-          "id": 5,
-          "project_name": "Public API Request Demo",
-          "description": "A page that retrieves data from an API and displays it",
-          "technologies": ["HTML", "CSS", "JavaScript"],
-          "live_link": "https://therealbyteraver.github.io/PublicApiRequests/",
-          "github_link": "https://github.com/TheRealByteraver/PublicApiRequests",
-          "thumb_image": "img/project05-square.jpg",
-          "image_urls": ["img/project05-big1.jpg","img/project05-big2.jpg","img/project05-big3.jpg"]
-      },
-      {
-          "id": 6,
-          "project_name": "React Gallery App",
-          "description": "A simple React App that lets you search the Flickr image database",
-          "technologies": ["React"],
-          "live_link": "https://stormy-hamlet-42926.herokuapp.com/",
-          "github_link": "https://github.com/TheRealByteraver/React-Gallery-App",
-          "thumb_image": "img/project06-square.jpg",
-          "image_urls": ["img/project06-big1.jpg","img/project06-big2.jpg"]
-      },
-      {
-          "id": 7,
-          "project_name": "SQL library manager",
-          "description": "An App that lets you search, add and remove books from a SQL database",
-          "technologies": ["Node.js", "Express", "Sequelize", "MySQL"],
-          "live_link": "https://project08.erland.info",
-          "github_link": "https://github.com/TheRealByteraver/SQL-Library-manager",
-          "thumb_image": "img/project07-square.jpg",
-          "image_urls": ["img/project07-big1.jpg","img/project07-big2.jpg","img/project07-big3.jpg"]
-      },
-      {
-          "id": 8,
-          "project_name": "Full stack app",
-          "description": "A React frontend to an (own) API that implements CRUD on a database of courses. Includes user authentication",
-          "technologies": ["React", "Node.js", "Express", "Sequelize", "MySQL"],
-          "live_link": "https://secret-woodland-36609.herokuapp.com/",
-          "github_link": "https://github.com/TheRealByteraver/Full-stack-App-with-Rest-API",
-          "thumb_image": "img/project08-square.jpg",
-          "image_urls": ["img/project08-big1.jpg","img/project08-big2.jpg","img/project08-big3.jpg"]
-      }
+    {
+        "id": 3,
+        "project_name": "Interactive Form",
+        "description": "A form enhanced with JavaScript: a quest for maximum user friendliness",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://therealbyteraver.github.io/InteractiveForm/",
+        "github_link": "https://github.com/TheRealByteraver/InteractiveForm",
+        "thumb_image": "img/project03-square.jpg",
+        "image_urls": ["img/project03-big1.jpg","img/project03-big2.jpg"]
+    },
+    {
+        "id": 4,
+        "project_name": "Game Show App",
+        "description": "A wheel-of-fortune style phrase hunting game. I also made the exact same game using React (repo at https://github.com/TheRealByteraver/React-OOPGameShowApp). The 'Live Demo' button points to the vanilla JavaScript version. Can you guess the Tarantino movie title?",
+        "technologies": ["HTML", "CSS", "JavaScript (OOP) / React"],
+        "live_link": "https://therealbyteraver.github.io/OOPGameShowApp/",
+        "github_link": "https://github.com/TheRealByteraver/OOPGameShowApp",
+        "thumb_image": "img/project04-square.jpg",
+        "image_urls": ["img/project04-big1.jpg","img/project04-big2.jpg"]
+    },
+    {
+        "id": 5,
+        "project_name": "Public API Request Demo",
+        "description": "A page that retrieves data from an API and displays it",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://therealbyteraver.github.io/PublicApiRequests/",
+        "github_link": "https://github.com/TheRealByteraver/PublicApiRequests",
+        "thumb_image": "img/project05-square.jpg",
+        "image_urls": ["img/project05-big1.jpg","img/project05-big2.jpg","img/project05-big3.jpg"]
+    },
+    {
+        "id": 6,
+        "project_name": "React Gallery App",
+        "description": "A simple React App that lets you search the Flickr image database",
+        "technologies": ["React"],
+        "live_link": "https://stormy-hamlet-42926.herokuapp.com/",
+        "github_link": "https://github.com/TheRealByteraver/React-Gallery-App",
+        "thumb_image": "img/project06-square.jpg",
+        "image_urls": ["img/project06-big1.jpg","img/project06-big2.jpg"]
+    },
+    {
+        "id": 7,
+        "project_name": "SQL library manager",
+        "description": "An App that lets you search, add and remove books from a SQL database",
+        "technologies": ["Node.js", "Express", "Sequelize", "MySQL"],
+        "live_link": "https://project08.erland.info",
+        "github_link": "https://github.com/TheRealByteraver/SQL-Library-manager",
+        "thumb_image": "img/project07-square.jpg",
+        "image_urls": ["img/project07-big1.jpg","img/project07-big2.jpg","img/project07-big3.jpg"]
+    },
+    {
+        "id": 8,
+        "project_name": "Full stack app",
+        "description": "A React frontend to an (own) API that implements CRUD on a database of courses. Includes user authentication",
+        "technologies": ["React", "Node.js", "Express", "Sequelize", "MySQL"],
+        "live_link": "https://project10.erland.info",
+        "github_link": "https://github.com/TheRealByteraver/Full-stack-App-with-Rest-API",
+        "thumb_image": "img/project08-square.jpg",
+        "image_urls": ["img/project08-big1.jpg","img/project08-big2.jpg","img/project08-big3.jpg"]
+    },
+    {
+        "id": 9,
+        "project_name": "Chatroom app",
+        "description": "A simple chatroom with user authentication, written in the Meteor.Js full stack framework. It is hosted on a free tier of galaxy.meteor.com, so it might take a while to load. You might need to refresh the browser after the initial load; after that it should work just fine.",
+        "technologies": ["Meteor.Js", "Blaze.js", "MongoDB"],
+        "live_link": "https://erland-chat.eu.meteorapp.com/",
+        "github_link": "https://github.com/TheRealByteraver/Meteor-mobile-chat-app",
+        "thumb_image": "img/project09-square.jpg",
+        "image_urls": ["img/project09-big1.jpg","img/project09-big2.jpg"]
+    },
+    {
+        "id": 10,
+        "project_name": "Calculator app",
+        "description": "A simple calculator with three color themes to choose from. A medior-level challenge from FrontendMentor.",
+        "technologies": ["Html", "CSS", "JavaScript/ React"],
+        "live_link": "https://therealbyteraver.github.io/FrontendMentor-Intermediate01/",
+        "github_link": "https://github.com/TheRealByteraver/FrontendMentor-Intermediate01",
+        "thumb_image": "img/project10-square.jpg",
+        "image_urls": ["img/project10-big1.jpg","img/project10-big2.jpg"]
+    },
+    {
+        "id": 11,
+        "project_name": "Expenses chart",
+        "description": "A component displaying a chart with weekly expenses. A junior-level challenge from FrontendMentor.",
+        "technologies": ["Html", "CSS", "JavaScript"],
+        "live_link": "https://therealbyteraver.github.io/FrontendMentor-Junior01/",
+        "github_link": "https://github.com/TheRealByteraver/FrontendMentor-Junior01",
+        "thumb_image": "img/project11-square.jpg",
+        "image_urls": ["img/project11-big1.jpg", "img/project11-big2.jpg"]
+    }
+
   ]
 }
