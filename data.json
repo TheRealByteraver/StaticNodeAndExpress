@@ -93,12 +93,12 @@
     {
         "id": 12,
         "project_name": "Solar Panel & Weather App",
-        "description": "An application showing historical data on solar panel yields, humidity & temperature. Made for a friend. For privacy reasons, there is no live link to the app nor the Github repo.",
+        "description": "An application showing historical data on solar panel yields, humidity & temperature. Made for a friend. For privacy reasons, there is no live link to the app and the Github repo is private.",
         "technologies": ["Tailwind", "React", "ReCharts"],
         "live_link": "N/A",
         "github_link": "https://github.com/TheRealByteraver/JEF-IOT",
-        "thumb_image": "img/project12-square.jpg",
-        "image_urls": ["img/project12-big1.jpg", "img/project12-big2.jpg"]
+        "thumb_image": "img/project12-square.png",
+        "image_urls": ["img/project12-big1.png", "img/project12-big2.png"]
     }
 
   ]
