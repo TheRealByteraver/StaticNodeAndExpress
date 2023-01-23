@@ -89,6 +89,16 @@
         "github_link": "https://github.com/TheRealByteraver/FrontendMentor-Junior01",
         "thumb_image": "img/project11-square.jpg",
         "image_urls": ["img/project11-big1.jpg", "img/project11-big2.jpg"]
+    },
+    {
+        "id": 12,
+        "project_name": "Solar Panel & Weather App",
+        "description": "An application showing historical data on solar panel yields, humidity & temperature. Made for a friend. For privacy reasons, there is no live link to the app nor the Github repo.",
+        "technologies": ["Tailwind", "React", "ReCharts"],
+        "live_link": "N/A",
+        "github_link": "https://github.com/TheRealByteraver/JEF-IOT",
+        "thumb_image": "img/project12-square.jpg",
+        "image_urls": ["img/project12-big1.jpg", "img/project12-big2.jpg"]
     }
 
   ]
