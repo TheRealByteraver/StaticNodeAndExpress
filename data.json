@@ -1,44 +1,24 @@
 {
   "projects": [
     {
-        "id": 3,
-        "project_name": "Interactive Form",
-        "description": "A form enhanced with JavaScript: a quest for maximum user friendliness",
-        "technologies": ["HTML", "CSS", "JavaScript"],
-        "live_link": "https://therealbyteraver.github.io/InteractiveForm/",
-        "github_link": "https://github.com/TheRealByteraver/InteractiveForm",
-        "thumb_image": "img/project03-square.jpg",
-        "image_urls": ["img/project03-big1.jpg","img/project03-big2.jpg"]
+        "id": 12,
+        "project_name": "Solar Panel & Weather App",
+        "description": "An application showing historical data on solar panel yields, humidity, temperature, etc. For privacy reasons, there is no live link to the app. The Github repo is also private.",
+        "technologies": ["Tailwind", "React", "ReCharts"],
+        "live_link": "",
+        "github_link": "https://github.com/TheRealByteraver/JEF-IOT",
+        "thumb_image": "img/project12-square.png",
+        "image_urls": ["img/project12-big1.png", "img/project12-big2.png"]
     },
     {
-        "id": 4,
-        "project_name": "Game Show App",
-        "description": "A wheel-of-fortune style phrase hunting game. I also made the exact same game using React (repo at https://github.com/TheRealByteraver/React-OOPGameShowApp). The 'Live Demo' button points to the vanilla JavaScript version. Can you guess the Tarantino movie title?",
-        "technologies": ["HTML", "CSS", "JavaScript (OOP) / React"],
-        "live_link": "https://therealbyteraver.github.io/OOPGameShowApp/",
-        "github_link": "https://github.com/TheRealByteraver/OOPGameShowApp",
-        "thumb_image": "img/project04-square.jpg",
-        "image_urls": ["img/project04-big1.jpg","img/project04-big2.jpg"]
-    },
-    {
-        "id": 5,
-        "project_name": "Public API Request Demo",
-        "description": "A page that retrieves data from an API and displays it",
-        "technologies": ["HTML", "CSS", "JavaScript"],
-        "live_link": "https://therealbyteraver.github.io/PublicApiRequests/",
-        "github_link": "https://github.com/TheRealByteraver/PublicApiRequests",
-        "thumb_image": "img/project05-square.jpg",
-        "image_urls": ["img/project05-big1.jpg","img/project05-big2.jpg","img/project05-big3.jpg"]
-    },
-    {
-        "id": 6,
-        "project_name": "React Gallery App",
-        "description": "A simple React App that lets you search the Flickr image database",
-        "technologies": ["React"],
-        "live_link": "https://stormy-hamlet-42926.herokuapp.com/",
-        "github_link": "https://github.com/TheRealByteraver/React-Gallery-App",
-        "thumb_image": "img/project06-square.jpg",
-        "image_urls": ["img/project06-big1.jpg","img/project06-big2.jpg"]
+        "id": 8,
+        "project_name": "Full stack app",
+        "description": "A React frontend to an (own) API that implements CRUD on a database of courses. Includes user authentication. The API was written in Node.Js. The layout is minimalistic, as this was never intended to be an exercise in design or CSS.",
+        "technologies": ["React", "Node.js", "Express", "Sequelize", "MySQL", "MarkDown"],
+        "live_link": "https://project10.erland.info",
+        "github_link": "https://github.com/TheRealByteraver/Full-stack-App-with-Rest-API",
+        "thumb_image": "img/project08-square.jpg",
+        "image_urls": ["img/project08-big1.jpg","img/project08-big2.jpg","img/project08-big3.jpg"]
     },
     {
         "id": 7,
@@ -49,16 +29,6 @@
         "github_link": "https://github.com/TheRealByteraver/SQL-Library-manager",
         "thumb_image": "img/project07-square.jpg",
         "image_urls": ["img/project07-big1.jpg","img/project07-big2.jpg","img/project07-big3.jpg"]
-    },
-    {
-        "id": 8,
-        "project_name": "Full stack app",
-        "description": "A React frontend to an (own) API that implements CRUD on a database of courses. Includes user authentication",
-        "technologies": ["React", "Node.js", "Express", "Sequelize", "MySQL"],
-        "live_link": "https://project10.erland.info",
-        "github_link": "https://github.com/TheRealByteraver/Full-stack-App-with-Rest-API",
-        "thumb_image": "img/project08-square.jpg",
-        "image_urls": ["img/project08-big1.jpg","img/project08-big2.jpg","img/project08-big3.jpg"]
     },
     {
         "id": 9,
@@ -81,6 +51,36 @@
         "image_urls": ["img/project10-big1.jpg","img/project10-big2.jpg"]
     },
     {
+        "id": 3,
+        "project_name": "Interactive Form",
+        "description": "A form enhanced with JavaScript, done as a UX exercise",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://therealbyteraver.github.io/InteractiveForm/",
+        "github_link": "https://github.com/TheRealByteraver/InteractiveForm",
+        "thumb_image": "img/project03-square.jpg",
+        "image_urls": ["img/project03-big1.jpg","img/project03-big2.jpg"]
+    },
+    {
+        "id": 4,
+        "project_name": "Game Show App",
+        "description": "A wheel-of-fortune style phrase hunting game. I also made the exact same game using React (repo at https://github.com/TheRealByteraver/React-OOPGameShowApp). The 'Live Demo' button points to the vanilla JavaScript version. Can you guess the Tarantino movie title?",
+        "technologies": ["HTML", "CSS", "JavaScript (OOP) / React"],
+        "live_link": "https://therealbyteraver.github.io/OOPGameShowApp/",
+        "github_link": "https://github.com/TheRealByteraver/OOPGameShowApp",
+        "thumb_image": "img/project04-square.jpg",
+        "image_urls": ["img/project04-big1.jpg","img/project04-big2.jpg"]
+    },
+    {
+        "id": 6,
+        "project_name": "Flickr Gallery App",
+        "description": "A simple React App that lets you search the Flickr image database",
+        "technologies": ["React"],
+        "live_link": "https://therealbyteraver.github.io/React-Gallery-App/",
+        "github_link": "https://github.com/TheRealByteraver/React-Gallery-App",
+        "thumb_image": "img/project06-square.jpg",
+        "image_urls": ["img/project06-big1.jpg","img/project06-big2.jpg"]
+    },
+    {
         "id": 11,
         "project_name": "Expenses chart",
         "description": "A component displaying a chart with weekly expenses. A junior-level challenge from FrontendMentor.",
@@ -89,17 +89,6 @@
         "github_link": "https://github.com/TheRealByteraver/FrontendMentor-Junior01",
         "thumb_image": "img/project11-square.jpg",
         "image_urls": ["img/project11-big1.jpg", "img/project11-big2.jpg"]
-    },
-    {
-        "id": 12,
-        "project_name": "Solar Panel & Weather App",
-        "description": "An application showing historical data on solar panel yields, humidity & temperature. Made for a friend. For privacy reasons, there is no live link to the app and the Github repo is private.",
-        "technologies": ["Tailwind", "React", "ReCharts"],
-        "live_link": "N/A",
-        "github_link": "https://github.com/TheRealByteraver/JEF-IOT",
-        "thumb_image": "img/project12-square.png",
-        "image_urls": ["img/project12-big1.png", "img/project12-big2.png"]
     }
-
   ]
 }
