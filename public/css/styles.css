@@ -223,7 +223,6 @@ nav a span {
   Home page styles
 */
 .portfolio-intro {
-  max-width: 1200px;
   padding: 40px 50px 30px;
 }
 
@@ -236,8 +235,12 @@ nav a span {
 .portfolio-intro p {
   text-rendering: optimizeLegibility;
   font-size: 125%;
-  margin: 0 auto;
+  margin: 0 auto auto 0;
   padding-bottom: 40px;
+  max-width: 1200px;
+}
+
+.separator {
   border-bottom: 1px solid #eaeaea;
 }
 

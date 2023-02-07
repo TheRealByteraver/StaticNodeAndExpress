@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+        "id": 1,
+        "project_name": "Interactive Form",
+        "description": "A form enhanced with JavaScript, done as a UX exercise",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://therealbyteraver.github.io/InteractiveForm/",
+        "github_link": "https://github.com/TheRealByteraver/InteractiveForm",
+        "thumb_image": "img/project03-square.jpg",
+        "image_urls": ["img/project03-big1.jpg","img/project03-big2.jpg"]
+    },
+    {
+        "id": 2,
+        "project_name": "Expenses chart",
+        "description": "A component displaying a chart with weekly expenses. A FrontendMentor challenge.",
+        "technologies": ["Html", "CSS", "JavaScript"],
+        "live_link": "https://therealbyteraver.github.io/FrontendMentor-Junior01/",
+        "github_link": "https://github.com/TheRealByteraver/FrontendMentor-Junior01",
+        "thumb_image": "img/project11-square.jpg",
+        "image_urls": ["img/project11-big1.jpg", "img/project11-big2.jpg"]
+    },
+    {
+        "id": 3,
+        "project_name": "Interactive rating component",
+        "description": "Interactive rating component. A FrontendMentor challenge.",
+        "technologies": ["Html", "CSS", "JavaScript"],
+        "live_link": "https://therealbyteraver.github.io/FrontendMentor-Newbie00/",
+        "github_link": "https://github.com/TheRealByteraver/FrontendMentor-Newbie00",
+        "thumb_image": "img/project13-square.png",
+        "image_urls": ["img/project13-big1.png"]
+    },
+    {
+        "id": 4,
+        "project_name": "FAQ accordion card",
+        "description": "FAQ accordion card. A FrontendMentor challenge.",
+        "technologies": ["Html", "CSS"],
+        "live_link": "https://therealbyteraver.github.io/FrontendMentor-Newbie05/",
+        "github_link": "https://github.com/TheRealByteraver/FrontendMentor-Newbie05",
+        "thumb_image": "img/project14-square.png",
+        "image_urls": ["img/project14-big1.png", "img/project14-big2.png"]
+    },
+    {
+        "id": 5,
+        "project_name": "Profile card",
+        "description": "Profile card. A FrontendMentor challenge.",
+        "technologies": ["Html", "CSS"],
+        "live_link": "https://therealbyteraver.github.io/FrontendMentor-Newbie04/",
+        "github_link": "https://github.com/TheRealByteraver/FrontendMentor-Newbie04",
+        "thumb_image": "img/project15-square.png",
+        "image_urls": ["img/project15-big1.png"]
+    },
+    {
+        "id": 6,
+        "project_name": "3-column preview card",
+        "description": "3-column preview card. A FrontendMentor challenge.",
+        "technologies": ["Html", "CSS"],
+        "live_link": "https://therealbyteraver.github.io/FrontendMentor-Newbie03/",
+        "github_link": "https://github.com/TheRealByteraver/FrontendMentor-Newbie03",
+        "thumb_image": "img/project16-square.png",
+        "image_urls": ["img/project16-big1.png"]
+    },
+    {
+        "id": 7,
+        "project_name": "Order summary card",
+        "description": "Order summary card. A FrontendMentor challenge.",
+        "technologies": ["Html", "CSS"],
+        "live_link": "https://therealbyteraver.github.io/FrontendMentor-Newbie01/",
+        "github_link": "https://github.com/TheRealByteraver/FrontendMentor-Newbie01",
+        "thumb_image": "img/project18-square.png",
+        "image_urls": ["img/project18-big1.png"]
+    }    
+  ]
+}

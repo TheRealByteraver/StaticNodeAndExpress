@@ -4,6 +4,8 @@ block content
   article.portfolio-intro
     h1 My Portfolio
     p This portfolio contains some JavaScript apps I made over the past years. The portfolio site itself was written using the Express Node.js framework with Pug as template engine.
+    h2 Apps
+      .separator
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
@@ -12,3 +14,15 @@ block content
           a(href=`/project/${project.id}`)
             img.thumbnail(src=`/static/${project.thumb_image}`,alt=`Thumbnail of ${project.project_name}`)
             h5 #{project.project_name}
+
+  article.portfolio-intro
+    h2 Components
+      .separator
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+      each component in components 
+        .cell 
+          a(href=`/component/${component.id}`)
+            img.thumbnail(src=`/static/${component.thumb_image}`,alt=`Thumbnail of ${component.project_name}`)
+            h5 #{component.project_name}

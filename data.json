@@ -8,7 +8,7 @@
         "live_link": "",
         "github_link": "https://github.com/TheRealByteraver/JEF-IOT",
         "thumb_image": "img/project12-square.png",
-        "image_urls": ["img/project12-big1.png", "img/project12-big2.png"]
+        "image_urls": ["img/project12-big1.png", "img/project12-big2.png", "img/project12-big3.png"]
     },
     {
         "id": 8,
@@ -51,16 +51,6 @@
         "image_urls": ["img/project10-big1.jpg","img/project10-big2.jpg"]
     },
     {
-        "id": 3,
-        "project_name": "Interactive Form",
-        "description": "A form enhanced with JavaScript, done as a UX exercise",
-        "technologies": ["HTML", "CSS", "JavaScript"],
-        "live_link": "https://therealbyteraver.github.io/InteractiveForm/",
-        "github_link": "https://github.com/TheRealByteraver/InteractiveForm",
-        "thumb_image": "img/project03-square.jpg",
-        "image_urls": ["img/project03-big1.jpg","img/project03-big2.jpg"]
-    },
-    {
         "id": 4,
         "project_name": "Game Show App",
         "description": "A wheel-of-fortune style phrase hunting game. I also made the exact same game using React (repo at https://github.com/TheRealByteraver/React-OOPGameShowApp). The 'Live Demo' button points to the vanilla JavaScript version. Can you guess the Tarantino movie title?",
@@ -79,16 +69,6 @@
         "github_link": "https://github.com/TheRealByteraver/React-Gallery-App",
         "thumb_image": "img/project06-square.jpg",
         "image_urls": ["img/project06-big1.jpg","img/project06-big2.jpg"]
-    },
-    {
-        "id": 11,
-        "project_name": "Expenses chart",
-        "description": "A component displaying a chart with weekly expenses. A junior-level challenge from FrontendMentor.",
-        "technologies": ["Html", "CSS", "JavaScript"],
-        "live_link": "https://therealbyteraver.github.io/FrontendMentor-Junior01/",
-        "github_link": "https://github.com/TheRealByteraver/FrontendMentor-Junior01",
-        "thumb_image": "img/project11-square.jpg",
-        "image_urls": ["img/project11-big1.jpg", "img/project11-big2.jpg"]
     }
   ]
 }

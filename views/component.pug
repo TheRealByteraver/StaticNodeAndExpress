@@ -1,0 +1,34 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-projects
+    .inner-wrapper.flex-row-wrap.two-col
+      .project-info-box.box
+        h1= `${component.project_name}`
+        p= `${component.description}`
+
+      .project-tech-links-box.box
+        h6 Technologies
+        ul
+          each technology in component.technologies
+            li= technology
+
+        if component.live_link.length > 0
+          a.btn-link(href=`${component.live_link}`,target='_blank') Live Demo
+        a.btn-link(href=`${component.github_link}`,target='_blank') GitHub Repo
+
+    .project-img-box.box
+      each image in component.image_urls
+        img.project-img(src=`/static/${image}`, 
+        |  alt=`Image of ${component.project_name}`)  
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back
