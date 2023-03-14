@@ -2,7 +2,7 @@
   "components": [
     {
         "id": 9,
-        "project_name": "Multi-step form Form",
+        "project_name": "Multi-step form",
         "description": "A multi-step form made with React using React-Hook-Form and Yup for validation",
         "technologies": ["Tailwind", "React", "React-Hook-Form", "Yup"],
         "live_link": "https://therealbyteraver.github.io/FrontendMentor-Advanced-MultiStepForm/",
