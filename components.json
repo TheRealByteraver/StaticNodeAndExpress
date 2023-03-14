@@ -1,14 +1,14 @@
 {
   "components": [
     {
-        "id": 1,
-        "project_name": "Interactive Form",
-        "description": "A form enhanced with JavaScript, done as a UX exercise",
-        "technologies": ["HTML", "CSS", "JavaScript"],
-        "live_link": "https://therealbyteraver.github.io/InteractiveForm/",
-        "github_link": "https://github.com/TheRealByteraver/InteractiveForm",
-        "thumb_image": "img/project03-square.jpg",
-        "image_urls": ["img/project03-big1.jpg","img/project03-big2.jpg"]
+        "id": 9,
+        "project_name": "Multi-step form Form",
+        "description": "A multi-step form made with React using React-Hook-Form and Yup for validation",
+        "technologies": ["Tailwind", "React", "React-Hook-Form", "Yup"],
+        "live_link": "https://therealbyteraver.github.io/FrontendMentor-Advanced-MultiStepForm/",
+        "github_link": "https://github.com/TheRealByteraver/FrontendMentor-Advanced-MultiStepForm",
+        "thumb_image": "img/project20-square.png",
+        "image_urls": ["img/project20-big1.png","img/project20-big2.png","img/project20-big3.png","img/project20-big4.png"]
     },
     {
         "id": 2,
@@ -79,6 +79,16 @@
         "github_link": "https://github.com/TheRealByteraver/FrontendMentor-Newbie02",
         "thumb_image": "img/project19-square.png",
         "image_urls": ["img/project19-big2.png", "img/project19-big1.png"]
-    }    
+    },
+    {
+        "id": 1,
+        "project_name": "Interactive Form",
+        "description": "A form enhanced with JavaScript, done as a UX exercise",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://therealbyteraver.github.io/InteractiveForm/",
+        "github_link": "https://github.com/TheRealByteraver/InteractiveForm",
+        "thumb_image": "img/project03-square.jpg",
+        "image_urls": ["img/project03-big1.jpg","img/project03-big2.jpg"]
+    }
   ]
 }
