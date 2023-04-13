@@ -3,8 +3,8 @@
     {
         "id": 12,
         "project_name": "Solar Panel & Weather App",
-        "description": "An application showing historical data on solar panel yields, humidity, temperature, etc. For privacy reasons, there is no live link to the app. The Github repo is also private.",
-        "technologies": ["Tailwind", "React", "ReCharts"],
+        "description": "An application showing data on solar panel yields, humidity levels, temperature, etc. It took some experimenting with the recharts library to get this one right. I recently implemented react router, but the people responsible for the backend still have to implement server side routing (I do not have access to the backend). In the future, we would like to also show realtime data. This needs a little more work on the backend side (to which I have no access). This was my first time using Tailwind, and while not perfect, I still really like it and will keep using it for other projects as well. Note that, for privacy reasons, there is no live link to the app. The Github repo is also private.",
+        "technologies": ["Tailwind", "React", "ReCharts", "React Router v6.8"],
         "live_link": "",
         "github_link": "https://github.com/TheRealByteraver/JEF-IOT",
         "thumb_image": "img/project12-square.png",
@@ -13,7 +13,7 @@
     {
         "id": 8,
         "project_name": "Full stack app",
-        "description": "A React frontend to an (own) API that implements CRUD on a database of courses. Includes user authentication. The API was written in Node.Js. The layout is minimalistic, as this was never intended to be an exercise in design or CSS.",
+        "description": "These are actually two projects in one: a complete rest api written in Node that implements crud on a database of courses, as well as a React frontend as interface to the api. Both frontend and backend include user authentication. The layout is quite barebone, as this was never intended to be an exercise in design or CSS.",
         "technologies": ["React", "Node.js", "Express", "Sequelize", "MySQL", "MarkDown"],
         "live_link": "https://project10.erland.info",
         "github_link": "https://github.com/TheRealByteraver/Full-stack-App-with-Rest-API",
@@ -23,7 +23,7 @@
     {
         "id": 7,
         "project_name": "SQL library manager",
-        "description": "An App that lets you search, add and remove books from a SQL database",
+        "description": "A proof-of-concept app that lets you search, add and remove books from a SQL database. It is written purely in Node.js. While the original implementation used SQlite, I decided to use MySQL instead on my DigitalOcean server where this app is hosted, to get some experience using MySQL server. This taught me that MySQL will eat up half a gigabyte of RAM just sitting still. Fun times ;)",
         "technologies": ["Node.js", "Express", "Sequelize", "MySQL"],
         "live_link": "https://project08.erland.info",
         "github_link": "https://github.com/TheRealByteraver/SQL-Library-manager",
@@ -33,7 +33,7 @@
     {
         "id": 9,
         "project_name": "Chatroom app",
-        "description": "A simple chatroom with user authentication, written in the Meteor.Js full stack framework. It is hosted on a free tier of galaxy.meteor.com, so it might take a while to load. You might need to refresh the browser after the initial load; after that it should work just fine.",
+        "description": "A simple chatroom with user authentication, written in the Meteor.Js full stack framework. I wrote this app to familiarize myself with Meteor.Js, which is used by Webship, a company that gave me my first experience as a full stack web developer. Meteor.Js is amazing for this type of real-time apps and allows for super fast prototyping. It needs quite some horsepower though, and might not be that easy to scale. This one is hosted on a free tier of galaxy.meteor.com, so it might take a while to load. You might need to refresh the browser after the initial load; after that it should work just fine.",
         "technologies": ["Meteor.Js", "Blaze.js", "MongoDB"],
         "live_link": "https://erland-chat.eu.meteorapp.com/",
         "github_link": "https://github.com/TheRealByteraver/Meteor-mobile-chat-app",
@@ -43,7 +43,7 @@
     {
         "id": 10,
         "project_name": "Calculator app",
-        "description": "A simple calculator with three color themes to choose from. A medior-level challenge from FrontendMentor.",
+        "description": "A simple calculator with three color themes to choose from. A medior-level challenge from FrontendMentor. It took me longer than I would like to admit to get the calculator working just right ;)",
         "technologies": ["Html", "CSS", "JavaScript/ React"],
         "live_link": "https://therealbyteraver.github.io/FrontendMentor-Intermediate01/",
         "github_link": "https://github.com/TheRealByteraver/FrontendMentor-Intermediate01",
@@ -53,7 +53,7 @@
     {
         "id": 4,
         "project_name": "Game Show App",
-        "description": "A wheel-of-fortune style phrase hunting game. I also made the exact same game using React (repo at https://github.com/TheRealByteraver/React-OOPGameShowApp). The 'Live Demo' button points to the vanilla JavaScript version. Can you guess the Tarantino movie title?",
+        "description": "A wheel-of-fortune style phrase hunting game. The design was made by Treehouse. I remade the exact same game using React (repo at https://github.com/TheRealByteraver/React-OOPGameShowApp). The 'Live Demo' button points to the vanilla JavaScript version. Can you guess the Tarantino movie title?",
         "technologies": ["HTML", "CSS", "JavaScript (OOP) / React"],
         "live_link": "https://therealbyteraver.github.io/OOPGameShowApp/",
         "github_link": "https://github.com/TheRealByteraver/OOPGameShowApp",
@@ -63,8 +63,8 @@
     {
         "id": 6,
         "project_name": "Flickr Gallery App",
-        "description": "A simple React App that lets you search the Flickr image database",
-        "technologies": ["React"],
+        "description": "A simple React App that lets you search the Flickr image database. Another Treehouse project. I had to copy /index.html to /404.html to get the routing to work on Github pages. Not ideal, but it works.",
+        "technologies": ["React", "React Router v4"],
         "live_link": "https://therealbyteraver.github.io/React-Gallery-App/",
         "github_link": "https://github.com/TheRealByteraver/React-Gallery-App",
         "thumb_image": "img/project06-square.jpg",
