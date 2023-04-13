@@ -3,9 +3,9 @@ block content
 
   article.portfolio-intro
     h1 My Portfolio
-    p This portfolio contains some JavaScript apps and components I made. The portfolio site itself was written using the Express Node.js framework with Pug as template engine. All apps and components are responsive and constructed with a "mobile first" approach.
-    h2 Apps
-      .separator
+    p This portfolio contains some JavaScript apps and components I made. The portfolio site itself was written using the Express Node.js framework with Pug as template engine. All apps and components are responsive and constructed with a "mobile first" approach. Click on the thumbnails to learn more about each project.
+    //- h2 Apps
+    //-   .separator
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
@@ -15,14 +15,14 @@ block content
             img.thumbnail(src=`/static/${project.thumb_image}`,alt=`Thumbnail of ${project.project_name}`)
             h5 #{project.project_name}
 
-  article.portfolio-intro
-    h2 Components
-      .separator
+  //- article.portfolio-intro
+  //-   h2 Components
+  //-     .separator
 
-  article.portfolio-project-thumbs
-    .projects-box.box.grid
-      each component in components 
-        .cell 
-          a(href=`/component/${component.id}`)
-            img.thumbnail(src=`/static/${component.thumb_image}`,alt=`Thumbnail of ${component.project_name}`)
-            h5 #{component.project_name}
+  //- article.portfolio-project-thumbs
+  //-   .projects-box.box.grid
+  //-     each component in components 
+  //-       .cell 
+  //-         a(href=`/component/${component.id}`)
+  //-           img.thumbnail(src=`/static/${component.thumb_image}`,alt=`Thumbnail of ${component.project_name}`)
+  //-           h5 #{component.project_name}

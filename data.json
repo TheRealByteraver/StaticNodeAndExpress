@@ -69,6 +69,16 @@
         "github_link": "https://github.com/TheRealByteraver/React-Gallery-App",
         "thumb_image": "img/project06-square.jpg",
         "image_urls": ["img/project06-big1.jpg","img/project06-big2.jpg"]
-    }
+    },
+    {
+        "id": 1,
+        "project_name": "Multi-step form",
+        "description": "This multi-step form is a FrontendMentor challenge. I implemented it with React using React-Hook-Form and Yup for validation. It took some time to get my head around RHF, but with some constructive input from a more senior developer I managed to implement the library as intended. It taught me how to implement Forms properly.",
+        "technologies": ["Tailwind", "React", "React-Hook-Form", "Yup"],
+        "live_link": "https://therealbyteraver.github.io/FrontendMentor-Advanced-MultiStepForm/",
+        "github_link": "https://github.com/TheRealByteraver/FrontendMentor-Advanced-MultiStepForm",
+        "thumb_image": "img/project20-square.png",
+        "image_urls": ["img/project20-big1.png","img/project20-big2.png","img/project20-big3.png","img/project20-big4.png"]
+    }    
   ]
 }
